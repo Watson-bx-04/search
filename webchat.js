@@ -16,7 +16,7 @@ window.watsonAssistantChatOptions = {
           {label: '注文のキャンセル'},
           {label: 'ピザの日はいつ'},
           {label: 'どこが宅配ピザを始めたの'},
-          {label: 'ピザの語源は'},
+          {label: 'ピザの誕生秘話'},
         ],
       },
     });
