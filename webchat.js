@@ -5,7 +5,7 @@ window.watsonAssistantChatOptions = {
   clientVersion: "6.2.0",
   onLoad: async (instance) => {
     instance.updateCSSVariables({
-      'BASE-width': '360px',
+      'BASE-width': '40px',
     });
     instance.updateHomeScreenConfig({
       greeting: 'こんにちは！ ピザに関するお問い合わせについてお答えできます',
@@ -16,6 +16,7 @@ window.watsonAssistantChatOptions = {
           {label: '注文のキャンセル'},
           {label: 'ピザの日はいつ'},
           {label: 'どこが宅配ピザを始めたの'},
+          {label: '日本初の宅配ピザ店'},
           {label: 'ピザの誕生秘話'},
         ],
       },
